@@ -12,7 +12,7 @@ public class BrazilianCompany extends Company {
     this.documentsGenerator = new DocumentsGenerator();
   }
 
-  private String cnpj() {
+  public String cnpj() {
     return this.documentsGenerator.cnpj();
   }
 }
